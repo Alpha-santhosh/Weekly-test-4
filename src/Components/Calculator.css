@@ -1,0 +1,52 @@
+.calculator{
+    border: 2px solid #47476b;
+    padding: 5px;
+    background: black;
+    width: 334px;
+    position: relative;
+}
+
+.formulaScreen{
+    min-height: 20px;
+    font-family: digital;
+    font-size: 20px;
+    color: orange;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.outputScreen{
+    font-size: 29px;
+    font-family: digital;
+    color: white;
+    text-align: right;
+    line-height: 35px;
+}
+
+button{
+    position: relative;
+    height: 65px;
+    width: 80px;
+    color: white;
+    outline: 1px solid black;
+    border: none;
+    background: #4d4d4d;
+    font-family: Share Tech Mono, monospace;
+    font-size: 20px;
+    cursor: default;
+}
+
+.rows_holder{
+    width: 100%;
+    display: flex;
+}
+
+button:hover{
+    color: black;
+    transform: scale(1.01);
+    outline: 1px solid #999393;
+    z-index: 100;
+}
